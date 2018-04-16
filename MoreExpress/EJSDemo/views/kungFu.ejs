@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<h1>You know the <%= stanceVar.toLowerCase() %> stance?!</h1>
+
+<% if(stanceVar.toLowerCase() === "tiger") { %>
+    <p>Good Choice, Tiger stance is dope!</p>
+<% } else { %>
+    <p>Oh, that's cool I guess... Tiger stance is probably better though.</p>
+<% } %>
+
+<p>P.S. this is the kungFu.ejs file!</p>
+
+<% include partials/footer %>

@@ -1,0 +1,14 @@
+{
+  "name": "expresspracticeapp",
+  "version": "1.0.0",
+  "description": "Animal Sounds Practice App",
+  "main": "AnimalSoundApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Shumate",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
