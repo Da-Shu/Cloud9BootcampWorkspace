@@ -21,7 +21,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/campgrounds", function(req, res) {
-    res.render("campgrounds", {campgrounds, campgrounds});
+    res.render("campgrounds", {campgrounds: campgrounds});
 });
 
 app.get("/campgrounds/new", function(req, res) {
